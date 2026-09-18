@@ -153,7 +153,3 @@ pytest --cov=apps --cov-report=term-missing   # coverage report
 ```
 
 See [`docs/TESTING.md`](docs/TESTING.md) for details.
-
-## License
-
-Educational project for an internship submission.
