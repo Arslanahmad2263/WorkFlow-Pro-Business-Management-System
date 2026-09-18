@@ -1,0 +1,35 @@
+[project]
+name = "workflow-pro-backend"
+version = "1.0.0"
+description = "WorkFlow-Pro backend: Business Management & Task Tracking REST API"
+requires-python = ">=3.12"
+
+[dependency-groups]
+dev = []
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings"
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+addopts = "-q --tb=short --disable-warnings -p no:cacheprovider"
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.coverage.run]
+source = ["apps"]
+omit = ["*/migrations/*", "*/admin.py", "*/apps.py", "tests/*"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+fail_under = 60
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["config", "apps"]
