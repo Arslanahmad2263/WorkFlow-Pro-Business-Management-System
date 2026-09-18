@@ -1,9 +1,7 @@
 # WorkFlow-Pro
 
 **Business Management & Task Tracking System** — a full-stack application for
-small companies to manage projects, tasks, team members and reporting.
-
-Built for the **ULT Technology — Python Developer Advanced Internship Task**.
+small companies to manage projects, tasks, team members and reporting.**
 
 ---
 
