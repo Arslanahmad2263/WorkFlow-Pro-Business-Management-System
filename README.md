@@ -77,7 +77,6 @@ python -m venv .venv
 source .venv/bin/activate         # Linux/macOS
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py seed_demo_data
 python manage.py runserver
 ```
 
