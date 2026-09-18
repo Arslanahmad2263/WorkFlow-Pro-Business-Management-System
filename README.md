@@ -64,7 +64,7 @@ Demo accounts — password for all: `DemoPass123!`
 | --- | --- |
 | `admin` | Admin — full access + user management |
 | `manager` | Manager — create/edit projects, tasks, members |
-| `alice` / `bob` / `carol` | Employee — read access, update their own tasks |
+| `arslan` / `aliraza` / `junaid` | Employee — read access, update their own tasks |
 
 ### 2. Local development (without Docker)
 
