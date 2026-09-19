@@ -1,4 +1,4 @@
-import { FormEvent, useEffect, useMemo, useState } from 'react'
+import { FormEvent, useEffect, useState } from 'react'
 import { Modal } from '@/components/ui/Modal'
 import { Field, Select, TextArea, TextInput } from '@/components/ui/Field'
 import { useActiveUsers, useProjects } from '@/hooks/api'
@@ -61,11 +61,6 @@ export function TaskFormModal({
       })
     }
   }, [open, task, fixedProjectId])
-
-  const projectMembers = useMemo(() => {
-    const project = projectsData?.results.find((p) => p.id === form.project)
-    return project?.members ?? []
-  }, [projectsData, form.project])
 
   const options = activeUsers ?? []
 
@@ -140,7 +135,7 @@ export function TaskFormModal({
           >
             <option value="">Unassigned</option>
             {options.map((u) => (
-              <option key={u.id} value={u.id} disabled={!projectMembers.some((m) => m.user.id === u.id)}>
+              <option key={u.id} value={u.id}>
                 {u.full_name || u.username}
               </option>
             ))}

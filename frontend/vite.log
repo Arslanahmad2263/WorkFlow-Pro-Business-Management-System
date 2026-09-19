@@ -9,3 +9,11 @@
 [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
 [2m11:21:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
 [2m11:21:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+[2m12:36:40 PM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/Legion RTX/Desktop/WorkFlow-Pro/frontend/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m12:36:40 PM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/Legion RTX/Desktop/WorkFlow-Pro/frontend/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m12:36:48 PM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/Legion RTX/Desktop/WorkFlow-Pro/frontend/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m12:36:52 PM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/Legion RTX/Desktop/WorkFlow-Pro/frontend/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m1:25:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/tasks/TaskFormModal.tsx, /src/index.css[22m
+[2m1:26:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/tasks/TaskFormModal.tsx, /src/index.css[22m
+[2m1:26:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/tasks/TaskFormModal.tsx, /src/index.css[22m
+[2m1:28:57 PM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/Legion RTX/Desktop/WorkFlow-Pro/frontend/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.

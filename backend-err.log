@@ -50,3 +50,7 @@
 [2026-09-19 12:33:26,434] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
 [2026-09-19 12:33:39,527] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\config\settings.py changed, reloading.
 [2026-09-19 12:33:42,355] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 13:24:43,896] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\tasks\serializers.py changed, reloading.
+[2026-09-19 13:24:47,368] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 13:25:45,498] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\tasks\serializers.py changed, reloading.
+[2026-09-19 13:25:47,977] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader

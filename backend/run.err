@@ -208,3 +208,64 @@
 [2026-09-19 11:47:19,666] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
 [2026-09-19 11:52:21,130] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\projects\views.py changed, reloading.
 [2026-09-19 11:52:23,181] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 12:17:59,448] INFO apps.accounts views: New account created: Demouser123
+[2026-09-19 12:17:59,479] INFO django.server basehttp: "POST /api/auth/register/ HTTP/1.1" 201 700
+[2026-09-19 12:18:16,133] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1845
+[2026-09-19 12:21:20,908] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1208
+[2026-09-19 12:21:20,933] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 1965
+[2026-09-19 12:21:20,984] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3474
+[2026-09-19 12:21:37,644] INFO apps.accounts views: User=Demouser123 logged out
+[2026-09-19 12:21:37,646] INFO django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 204 0
+[2026-09-19 12:21:42,964] WARNING apps.accounts views: Logout with invalid refresh token: Token is blacklisted
+[2026-09-19 12:21:42,964] WARNING django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 400 73
+[2026-09-19 12:22:02,760] INFO apps.accounts views: User=admin logged in
+[2026-09-19 12:22:02,763] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 12:22:19,189] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1845
+[2026-09-19 12:22:56,514] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 1965
+[2026-09-19 12:23:34,633] INFO django.server basehttp: "POST /api/projects/ HTTP/1.1" 201 346
+[2026-09-19 12:23:42,896] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 2312
+[2026-09-19 12:24:01,500] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1208
+[2026-09-19 12:24:01,511] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3474
+[2026-09-19 12:24:01,621] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2312
+[2026-09-19 12:25:25,794] INFO django.server basehttp: "GET /api/reports/tasks/?days=30 HTTP/1.1" 200 253
+[2026-09-19 12:25:25,817] INFO django.server basehttp: "GET /api/reports/project-progress/ HTTP/1.1" 200 739
+[2026-09-19 12:25:55,532] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1208
+[2026-09-19 12:25:55,551] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 1258
+[2026-09-19 12:26:52,795] INFO apps.accounts views: Admin=admin created user=zoya123 role=employee
+[2026-09-19 12:26:52,800] INFO django.server basehttp: "POST /api/auth/users/ HTTP/1.1" 201 193
+[2026-09-19 12:27:01,073] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1402
+[2026-09-19 12:27:01,073] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 1452
+[2026-09-19 12:30:37,818] INFO apps.accounts views: User=admin logged out
+[2026-09-19 12:30:37,818] INFO django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 204 0
+[2026-09-19 12:30:42,286] WARNING apps.accounts views: Logout with invalid refresh token: Token is blacklisted
+[2026-09-19 12:30:42,288] WARNING django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 400 73
+[2026-09-19 12:32:16,470] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\accounts\admin.py changed, reloading.
+[2026-09-19 12:32:21,678] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 12:33:23,188] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\config\settings.py changed, reloading.
+[2026-09-19 12:33:25,762] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 12:33:39,426] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\config\settings.py changed, reloading.
+[2026-09-19 12:33:42,096] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 13:16:02,484] INFO apps.accounts views: User=manager logged in
+[2026-09-19 13:16:02,529] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 702
+[2026-09-19 13:16:19,476] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1861
+[2026-09-19 13:16:37,563] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1402
+[2026-09-19 13:16:37,595] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3474
+[2026-09-19 13:16:37,612] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2312
+[2026-09-19 13:18:40,612] INFO django.server basehttp: "DELETE /api/tasks/6/ HTTP/1.1" 204 0
+[2026-09-19 13:18:49,081] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3054
+[2026-09-19 13:18:49,126] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2312
+[2026-09-19 13:19:27,656] INFO apps.accounts views: User=manager logged out
+[2026-09-19 13:19:27,656] INFO django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 204 0
+[2026-09-19 13:19:53,624] INFO apps.accounts views: User=admin logged in
+[2026-09-19 13:19:53,628] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 13:20:10,163] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1863
+[2026-09-19 13:20:11,630] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 2312
+[2026-09-19 13:20:42,568] INFO django.server basehttp: "POST /api/projects/ HTTP/1.1" 201 341
+[2026-09-19 13:20:50,965] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 2654
+[2026-09-19 13:21:04,581] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1402
+[2026-09-19 13:21:04,610] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3054
+[2026-09-19 13:21:04,632] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2654
+[2026-09-19 13:24:44,234] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\tasks\serializers.py changed, reloading.
+[2026-09-19 13:24:47,360] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 13:25:45,620] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\tasks\serializers.py changed, reloading.
+[2026-09-19 13:25:48,268] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader

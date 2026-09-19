@@ -123,15 +123,15 @@ def test_progress_out_of_range_rejected(manager_client, task):
 
 
 @pytest.mark.django_db
-def test_assignee_must_be_project_member(manager_client, task):
+def test_manager_can_assign_task_to_any_active_user(manager_client, task):
     outsider = UserFactory(username="outsider")
     resp = manager_client.patch(
         f"/api/tasks/{task.id}/",
         {"assigned_to": outsider.id},
         format="json",
     )
-    assert resp.status_code == 400
-    assert "assigned_to" in resp.json()["detail"]
+    assert resp.status_code == 200
+    assert resp.json()["assigned_to"] == outsider.id
 
 
 @pytest.mark.django_db

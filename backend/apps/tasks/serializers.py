@@ -90,18 +90,12 @@ class TaskSerializer(serializers.ModelSerializer):
         return value
 
     def validate(self, attrs):
-        project = attrs.get("project", getattr(self.instance, "project", None))
-        assigned_to = attrs.get("assigned_to", getattr(self.instance, "assigned_to", None))
         status = attrs.get("status", getattr(self.instance, "status", None))
         progress = attrs.get("progress", getattr(self.instance, "progress", 0))
 
         if status == "done" and progress < 100:
             raise serializers.ValidationError(
                 {"status": "A task cannot be marked done before progress reaches 100%."}
-            )
-        if project and assigned_to and not project.memberships.filter(user=assigned_to).exists():
-            raise serializers.ValidationError(
-                {"assigned_to": "The assignee must be a member of this project."}
             )
         return attrs
 
