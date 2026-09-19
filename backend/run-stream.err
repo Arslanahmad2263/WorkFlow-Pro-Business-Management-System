@@ -1,0 +1,122 @@
+[2026-09-19 16:29:13,151] INFO apps.accounts views: User=admin logged in
+[2026-09-19 16:29:13,194] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 16:29:29,905] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1852
+[2026-09-19 16:31:30,936] INFO django.server basehttp: "GET /api/schema/ HTTP/1.1" 200 43932
+[2026-09-19 16:31:47,846] INFO apps.accounts views: User=admin logged in
+[2026-09-19 16:31:47,851] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 16:36:34,996] INFO apps.accounts views: User=admin logged in
+[2026-09-19 16:36:35,009] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 16:36:35,450] INFO django.server basehttp: "GET /api/schema/ HTTP/1.1" 200 43932
+[2026-09-19 16:36:56,996] INFO apps.accounts views: User=admin logged out
+[2026-09-19 16:36:57,000] INFO django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 204 0
+[2026-09-19 16:37:06,477] INFO apps.accounts views: User=admin logged in
+[2026-09-19 16:37:06,485] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 16:37:06,784] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1852
+[2026-09-19 16:37:10,411] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 2654
+[2026-09-19 16:37:11,455] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3083
+[2026-09-19 16:37:11,487] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1405
+[2026-09-19 16:37:11,549] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2654
+[2026-09-19 16:37:12,775] INFO django.server basehttp: "GET /api/reports/tasks/?days=30 HTTP/1.1" 200 251
+[2026-09-19 16:37:12,808] INFO django.server basehttp: "GET /api/reports/project-progress/ HTTP/1.1" 200 922
+[2026-09-19 16:37:13,548] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 1455
+[2026-09-19 16:37:15,658] INFO apps.accounts views: User=admin logged out
+[2026-09-19 16:37:15,661] INFO django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 204 0
+[2026-09-19 16:37:24,463] INFO apps.accounts views: User=manager logged in
+[2026-09-19 16:37:24,468] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 702
+[2026-09-19 16:37:29,146] INFO apps.accounts views: User=manager logged out
+[2026-09-19 16:37:29,147] INFO django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 204 0
+[2026-09-19 16:37:41,439] INFO apps.accounts views: User=arslan123 logged in
+[2026-09-19 16:37:41,448] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 699
+[2026-09-19 16:37:41,662] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1852
+[2026-09-19 16:37:45,296] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2654
+[2026-09-19 16:37:45,327] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1405
+[2026-09-19 16:37:45,370] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3083
+[2026-09-19 16:37:46,005] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 2654
+[2026-09-19 16:37:50,288] INFO django.server basehttp: "GET /api/projects/?search=m&page=1 HTTP/1.1" 200 1379
+[2026-09-19 16:37:54,663] INFO django.server basehttp: "GET /api/projects/?search=mo&page=1 HTTP/1.1" 200 1032
+[2026-09-19 16:37:57,893] INFO django.server basehttp: "GET /api/projects/?search=mob&page=1 HTTP/1.1" 200 1032
+[2026-09-19 16:38:01,238] INFO django.server basehttp: "GET /api/projects/?search=mobi&page=1 HTTP/1.1" 200 1032
+[2026-09-19 16:38:09,865] INFO django.server basehttp: "GET /api/projects/?search=Internal+Knowledge+Base&page=1 HTTP/1.1" 200 692
+[2026-09-19 16:38:13,253] INFO django.server basehttp: "GET /api/projects/?status=active&page=1 HTTP/1.1" 200 1671
+[2026-09-19 16:38:14,030] INFO django.server basehttp: "GET /api/projects/?status=planning&page=1 HTTP/1.1" 200 1034
+[2026-09-19 16:38:14,626] INFO django.server basehttp: "GET /api/projects/?status=on_hold&page=1 HTTP/1.1" 200 52
+[2026-09-19 16:38:15,287] INFO django.server basehttp: "GET /api/projects/?status=completed&page=1 HTTP/1.1" 200 52
+[2026-09-19 16:38:16,305] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 2654
+[2026-09-19 16:38:16,983] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1405
+[2026-09-19 16:38:16,998] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2654
+[2026-09-19 16:38:17,049] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3083
+[2026-09-19 16:38:17,383] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1852
+[2026-09-19 16:38:20,315] INFO apps.accounts views: User=arslan123 logged out
+[2026-09-19 16:38:20,315] INFO django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 204 0
+[2026-09-19 16:38:28,845] INFO apps.accounts views: User=admin logged in
+[2026-09-19 16:38:28,872] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 16:38:30,492] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 1455
+[2026-09-19 16:38:53,817] INFO django.server basehttp: "PATCH /api/auth/users/12/ HTTP/1.1" 200 197
+[2026-09-19 16:38:54,012] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 1448
+[2026-09-19 16:38:54,012] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1398
+[2026-09-19 16:39:29,861] INFO django.server basehttp: "GET /api/reports/project-progress/ HTTP/1.1" 200 922
+[2026-09-19 16:39:29,901] INFO django.server basehttp: "GET /api/reports/tasks/?days=30 HTTP/1.1" 200 251
+[2026-09-19 16:39:36,707] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1398
+[2026-09-19 16:39:36,766] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3081
+[2026-09-19 16:39:36,793] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2654
+[2026-09-19 16:39:47,006] WARNING django.server basehttp: "PATCH /api/tasks/4/ HTTP/1.1" 400 110
+[2026-09-19 16:39:50,187] WARNING django.server basehttp: "PATCH /api/tasks/4/ HTTP/1.1" 400 110
+[2026-09-19 16:40:19,792] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1398
+[2026-09-19 16:40:19,815] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 1448
+[2026-09-19 16:40:26,562] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3081
+[2026-09-19 16:40:26,574] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2654
+[2026-09-19 16:40:30,098] INFO django.server basehttp: "GET /api/tasks/?assigned_to=9&page=1 HTTP/1.1" 200 927
+[2026-09-19 16:40:41,267] WARNING django.server basehttp: "PATCH /api/tasks/7/ HTTP/1.1" 400 127
+[2026-09-19 16:40:49,074] WARNING django.server basehttp: "PATCH /api/tasks/7/ HTTP/1.1" 400 127
+[2026-09-19 16:41:26,366] WARNING django.server basehttp: "PATCH /api/tasks/7/ HTTP/1.1" 400 127
+[2026-09-19 16:42:52,304] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 16:42:52,416] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 16:42:54,060] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1398
+[2026-09-19 16:42:54,127] INFO django.server basehttp: "GET /api/tasks/?assigned_to=9&page=1 HTTP/1.1" 200 927
+[2026-09-19 16:42:54,134] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2654
+[2026-09-19 16:43:01,412] WARNING django.server basehttp: "PATCH /api/tasks/7/ HTTP/1.1" 400 127
+[2026-09-19 16:44:01,158] ERROR django.security.DisallowedHost log: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\http\request.py", line 203, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2026-09-19 16:44:01,184] WARNING django.server basehttp: "GET / HTTP/1.1" 400 81634
+[2026-09-19 16:44:01,420] ERROR django.security.DisallowedHost log: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\http\request.py", line 203, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2026-09-19 16:44:01,422] WARNING django.server basehttp: "GET / HTTP/1.1" 400 81490
+[2026-09-19 16:44:05,109] ERROR django.security.DisallowedHost log: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\.venv\Lib\site-packages\django\http\request.py", line 203, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2026-09-19 16:44:05,129] WARNING django.server basehttp: "GET /favicon.ico HTTP/1.1" 400 81415
