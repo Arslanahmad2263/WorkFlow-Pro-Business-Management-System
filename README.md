@@ -1,9 +1,7 @@
 # WorkFlow-Pro
 
 **Business Management & Task Tracking System** — a full-stack application for
-small companies to manage projects, tasks, team members and reporting.
-
-Built for the **ULT Technology — Python Developer Advanced Internship Task**.
+small companies to manage projects, tasks, team members and reporting.**
 
 ---
 
@@ -64,7 +62,7 @@ Demo accounts — password for all: `DemoPass123!`
 | --- | --- |
 | `admin` | Admin — full access + user management |
 | `manager` | Manager — create/edit projects, tasks, members |
-| `alice` / `bob` / `carol` | Employee — read access, update their own tasks |
+| `arslan` / `aliraza` / `junaid` | Employee — read access, update their own tasks |
 
 ### 2. Local development (without Docker)
 
@@ -77,7 +75,6 @@ python -m venv .venv
 source .venv/bin/activate         # Linux/macOS
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py seed_demo_data
 python manage.py runserver
 ```
 
@@ -154,7 +151,3 @@ pytest --cov=apps --cov-report=term-missing   # coverage report
 ```
 
 See [`docs/TESTING.md`](docs/TESTING.md) for details.
-
-## License
-
-Educational project for an internship submission.
