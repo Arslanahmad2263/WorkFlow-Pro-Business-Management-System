@@ -81,3 +81,18 @@
 [2026-09-19 04:52:29,883] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
 [2026-09-19 04:52:38,199] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 405
 [2026-09-19 04:52:38,220] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 455
+[2026-09-19 04:53:41,969] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 04:53:42,962] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 04:54:06,318] INFO apps.accounts views: User=admin logged in
+[2026-09-19 04:54:06,340] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 04:54:23,122] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1837
+[2026-09-19 04:54:59,183] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 405
+[2026-09-19 04:54:59,187] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 455
+[2026-09-19 04:55:23,147] INFO django.server basehttp: "GET /api/reports/tasks/?days=30 HTTP/1.1" 200 253
+[2026-09-19 04:55:23,148] INFO django.server basehttp: "GET /api/reports/project-progress/ HTTP/1.1" 200 547
+[2026-09-19 04:56:35,818] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3474
+[2026-09-19 04:56:35,818] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 405
+[2026-09-19 04:56:35,873] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 1965
+[2026-09-19 04:57:26,583] INFO django.server basehttp: "PATCH /api/tasks/5/ HTTP/1.1" 200 431
+[2026-09-19 04:57:34,893] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3474
+[2026-09-19 04:57:34,958] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 1965
