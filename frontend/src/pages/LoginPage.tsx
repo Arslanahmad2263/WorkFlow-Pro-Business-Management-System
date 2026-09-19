@@ -96,11 +96,6 @@ export function LoginPage() {
             </Link>
           </p>
         </form>
-
-        <p className="mt-4 text-center text-xs text-slate-400">
-          Demo accounts: admin / manager / alice / bob / carol · password{' '}
-          <code className="rounded bg-slate-200 px-1">DemoPass123!</code>
-        </p>
       </div>
     </div>
   )

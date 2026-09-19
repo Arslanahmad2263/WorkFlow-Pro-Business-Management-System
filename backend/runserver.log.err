@@ -1,0 +1,53 @@
+[2026-09-19 03:41:19,908] WARNING django.server basehttp: "GET / HTTP/1.1" 404 3090
+[2026-09-19 03:41:22,412] WARNING django.server basehttp: "GET /favicon.ico HTTP/1.1" 404 3141
+[2026-09-19 03:45:25,543] INFO django.server basehttp: "GET /admin HTTP/1.1" 301 0
+[2026-09-19 03:45:25,888] INFO django.server basehttp: "GET /admin/ HTTP/1.1" 302 0
+[2026-09-19 03:45:26,049] INFO django.server basehttp: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+[2026-09-19 03:45:26,383] INFO django.server basehttp: "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+[2026-09-19 03:45:26,395] INFO django.server basehttp: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+[2026-09-19 03:45:26,404] INFO django.server basehttp: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[2026-09-19 03:45:26,411] INFO django.server basehttp: "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[2026-09-19 03:45:26,418] INFO django.server basehttp: "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+[2026-09-19 03:45:26,429] INFO django.server basehttp: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[2026-09-19 03:45:26,435] INFO django.server basehttp: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[2026-09-19 03:45:33,719] INFO django.server basehttp: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+[2026-09-19 03:45:41,520] WARNING django.server basehttp: "GET / HTTP/1.1" 404 3090
+[2026-09-19 03:45:49,971] WARNING django.server basehttp: "GET /api/auth HTTP/1.1" 404 7578
+[2026-09-19 03:46:05,125] INFO django.server basehttp: "GET /api/docs HTTP/1.1" 301 0
+[2026-09-19 03:46:21,485] INFO django.server basehttp: "GET /api/docs/ HTTP/1.1" 200 4649
+[2026-09-19 03:46:28,367] WARNING django.server basehttp: "GET / HTTP/1.1" 404 3090
+[2026-09-19 03:46:38,672] INFO django.server basehttp: "GET /api/schema/ HTTP/1.1" 200 87908
+[2026-09-19 03:46:56,600] INFO django.server basehttp: "GET /api/docs/ HTTP/1.1" 200 4649
+[2026-09-19 03:47:13,271] INFO django.server basehttp: "GET /api/schema/ HTTP/1.1" 200 87908
+[2026-09-19 03:48:15,540] WARNING django.server basehttp: "GET /api/reports/tasks/?days=30 HTTP/1.1" 401 99
+[2026-09-19 03:48:37,632] WARNING django.server basehttp: "GET /api/reports/tasks/?days=1 HTTP/1.1" 401 99
+[2026-09-19 03:48:53,767] WARNING django.server basehttp: "GET /api/reports/tasks/?days=30 HTTP/1.1" 401 99
+[2026-09-19 03:50:47,560] INFO apps.accounts views: New account created: Demouser123
+[2026-09-19 03:50:47,572] INFO django.server basehttp: "POST /api/auth/register/ HTTP/1.1" 201 692
+[2026-09-19 03:52:31,140] WARNING apps.accounts serializers: Failed login attempt for username=demouser123
+[2026-09-19 03:52:31,149] WARNING django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 400 94
+[2026-09-19 03:53:10,649] WARNING django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 401 99
+[2026-09-19 03:54:10,843] WARNING django.server basehttp: "GET / HTTP/1.1" 404 3090
+[2026-09-19 03:54:37,901] INFO django.server basehttp: "GET /api/schema/ HTTP/1.1" 200 43932
+[2026-09-19 03:55:14,535] INFO django.server basehttp: "GET /api/schema/ HTTP/1.1" 200 43932
+[2026-09-19 03:59:16,556] INFO django.server basehttp: "GET /api/schema/ HTTP/1.1" 200 43932
+[2026-09-19 03:59:30,598] INFO django.server basehttp: - Broken pipe from ('127.0.0.1', 53854)
+[2026-09-19 04:00:07,119] INFO apps.accounts views: User=admin logged in
+[2026-09-19 04:00:07,124] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 690
+[2026-09-19 04:00:22,904] INFO django.server basehttp: "GET /api/schema/ HTTP/1.1" 200 43932
+[2026-09-19 04:00:23,788] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1846
+[2026-09-19 04:00:41,460] INFO django.server basehttp: - Broken pipe from ('127.0.0.1', 64952)
+[2026-09-19 04:00:54,068] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 2848
+[2026-09-19 04:01:48,328] INFO apps.accounts views: User=manager logged in
+[2026-09-19 04:01:48,333] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 704
+[2026-09-19 04:01:51,653] INFO django.server basehttp: "GET /api/projects/?status=planning&page=1 HTTP/1.1" 200 694
+[2026-09-19 04:01:57,072] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 207
+[2026-09-19 04:01:57,118] WARNING django.server basehttp: "GET /api/analytics/dashboard/ HTTP/1.1" 404 7626
+[2026-09-19 04:02:01,757] INFO django.server basehttp: "GET /api/projects/?status=on_hold&page=1 HTTP/1.1" 200 52
+[2026-09-19 04:02:03,483] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3520
+[2026-09-19 04:02:03,515] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 2848
+[2026-09-19 04:02:03,546] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1200
+[2026-09-19 04:02:30,766] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 1250
+[2026-09-19 04:02:30,791] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 1200
+[2026-09-19 04:02:34,120] INFO django.server basehttp: "GET /api/reports/tasks/?days=30 HTTP/1.1" 200 253
+[2026-09-19 04:02:34,136] INFO django.server basehttp: "GET /api/reports/project-progress/ HTTP/1.1" 200 547
