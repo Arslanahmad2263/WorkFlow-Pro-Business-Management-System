@@ -6,8 +6,8 @@ services:
     restart: unless-stopped
     environment:
       POSTGRES_DB: workflow_pro
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: Postgres#201
+      POSTGRES_USER: database username
+      POSTGRES_PASSWORD: password
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
