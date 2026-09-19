@@ -26,14 +26,20 @@ def dashboard_summary() -> dict:
     projects = Project.objects.all()
     tasks = Task.objects.all()
 
-    task_status = {status: tasks.filter(status=status).count() for status in STATUS_ORDER}
+    task_status_counts = dict(tasks.values_list('status').annotate(n=Count('id')))
+    task_status = {s: task_status_counts.get(s, 0) for s in STATUS_ORDER}
+    project_status_counts = dict(
+        projects.values_list("status").annotate(n=Count("id")).values_list("status", "n")
+    )
     project_status = {
-        ProjectStatus.PLANNING: projects.filter(status=ProjectStatus.PLANNING).count(),
-        ProjectStatus.ACTIVE: projects.filter(status=ProjectStatus.ACTIVE).count(),
-        ProjectStatus.ON_HOLD: projects.filter(status=ProjectStatus.ON_HOLD).count(),
-        ProjectStatus.COMPLETED: projects.filter(status=ProjectStatus.COMPLETED).count(),
+        status: project_status_counts.get(status, 0)
+        for status in (
+            ProjectStatus.PLANNING,
+            ProjectStatus.ACTIVE,
+            ProjectStatus.ON_HOLD,
+            ProjectStatus.COMPLETED,
+        )
     }
-
     overdue_tasks = (
         tasks.filter(due_date__isnull=False, due_date__lt=today)
         .exclude(status=TaskStatus.DONE)

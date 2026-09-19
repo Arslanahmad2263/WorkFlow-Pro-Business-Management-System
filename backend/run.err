@@ -96,3 +96,115 @@
 [2026-09-19 04:57:26,583] INFO django.server basehttp: "PATCH /api/tasks/5/ HTTP/1.1" 200 431
 [2026-09-19 04:57:34,893] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3474
 [2026-09-19 04:57:34,958] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 1965
+[2026-09-19 05:19:26,363] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 05:19:34,714] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 05:19:53,422] INFO apps.accounts views: User=admin logged in
+[2026-09-19 05:19:53,429] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 05:20:09,900] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1847
+[2026-09-19 05:20:23,047] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 405
+[2026-09-19 05:20:23,049] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 455
+[2026-09-19 09:04:10,981] WARNING django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 401 198
+[2026-09-19 09:04:11,038] WARNING django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 401 198
+[2026-09-19 09:04:29,482] INFO django.server basehttp: "POST /api/auth/refresh/ HTTP/1.1" 200 489
+[2026-09-19 09:04:37,677] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 09:04:45,930] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 405
+[2026-09-19 09:04:45,936] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 455
+[2026-09-19 09:04:45,958] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 09:25:50,635] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 09:25:58,873] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 09:26:07,501] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 455
+[2026-09-19 09:26:07,516] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 405
+[2026-09-19 09:28:17,613] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 09:28:26,258] INFO django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 200 197
+[2026-09-19 09:28:34,595] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 455
+[2026-09-19 09:28:34,598] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 405
+[2026-09-19 09:37:55,632] WARNING django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 401 198
+[2026-09-19 09:37:55,650] WARNING django.server basehttp: "GET /api/auth/me/ HTTP/1.1" 401 198
+[2026-09-19 09:38:14,535] WARNING django.server basehttp: "POST /api/auth/refresh/ HTTP/1.1" 401 84
+[2026-09-19 10:09:58,409] INFO apps.accounts views: User=manager logged in
+[2026-09-19 10:09:58,444] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 702
+[2026-09-19 10:10:15,432] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1847
+[2026-09-19 10:11:25,417] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 1965
+[2026-09-19 10:11:44,194] INFO django.server basehttp: "GET /api/projects/?search=m&page=1 HTTP/1.1" 200 690
+[2026-09-19 10:13:04,445] WARNING django.server basehttp: "GET / HTTP/1.1" 404 3090
+[2026-09-19 10:14:30,805] INFO django.server basehttp: "GET /admin/ HTTP/1.1" 302 0
+[2026-09-19 10:14:30,891] INFO django.server basehttp: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+[2026-09-19 10:14:31,611] INFO django.server basehttp: "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[2026-09-19 10:14:31,620] INFO django.server basehttp: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+[2026-09-19 10:14:31,629] INFO django.server basehttp: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[2026-09-19 10:14:31,646] INFO django.server basehttp: "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+[2026-09-19 10:14:31,653] INFO django.server basehttp: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[2026-09-19 10:14:31,653] INFO django.server basehttp: "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+[2026-09-19 10:14:31,661] INFO django.server basehttp: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[2026-09-19 10:14:54,560] INFO django.server basehttp: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4344
+[2026-09-19 10:15:01,244] INFO django.server basehttp: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4344
+[2026-09-19 10:16:39,643] WARNING django.server basehttp: "GET /api/auth/ HTTP/1.1" 404 9606
+[2026-09-19 10:16:47,702] INFO django.server basehttp: "GET /api/docs HTTP/1.1" 301 0
+[2026-09-19 10:17:03,964] INFO django.server basehttp: "GET /api/docs/ HTTP/1.1" 200 4649
+[2026-09-19 10:17:22,341] INFO django.server basehttp: "GET /api/docs/ HTTP/1.1" 200 4649
+[2026-09-19 10:17:24,519] INFO django.server basehttp: - Broken pipe from ('127.0.0.1', 57192)
+[2026-09-19 10:17:38,979] INFO django.server basehttp: "GET /api/schema/ HTTP/1.1" 200 87908
+[2026-09-19 10:18:59,807] INFO apps.accounts views: User=admin logged in
+[2026-09-19 10:18:59,813] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 10:19:35,212] WARNING django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 401 99
+[2026-09-19 10:20:03,759] WARNING django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 401 99
+[2026-09-19 10:20:09,905] WARNING django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 401 99
+[2026-09-19 10:21:48,525] WARNING django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 401 99
+[2026-09-19 10:23:04,268] WARNING django.server basehttp: "GET /api/projects/1/ HTTP/1.1" 401 99
+[2026-09-19 10:25:46,383] INFO apps.accounts views: New account created: newuser
+[2026-09-19 10:25:46,385] INFO django.server basehttp: "POST /api/auth/register/ HTTP/1.1" 201 686
+[2026-09-19 10:28:01,606] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 773
+[2026-09-19 10:28:01,639] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3474
+[2026-09-19 10:28:01,675] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 1965
+[2026-09-19 10:28:05,539] INFO apps.accounts views: User=manager logged out
+[2026-09-19 10:28:05,542] INFO django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 204 0
+[2026-09-19 10:28:07,522] INFO django.server basehttp: "GET /api/reports/tasks/?days=30 HTTP/1.1" 200 253
+[2026-09-19 10:28:07,522] INFO django.server basehttp: "GET /api/reports/project-progress/ HTTP/1.1" 200 547
+[2026-09-19 10:28:10,097] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 773
+[2026-09-19 10:28:12,406] WARNING apps.accounts views: Logout with invalid refresh token: Token is blacklisted
+[2026-09-19 10:28:12,409] WARNING django.server basehttp: "POST /api/auth/logout/ HTTP/1.1" 400 73
+[2026-09-19 10:28:37,080] INFO apps.accounts views: User=admin logged in
+[2026-09-19 10:28:37,080] INFO django.server basehttp: "POST /api/auth/login/ HTTP/1.1" 200 694
+[2026-09-19 10:28:53,847] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1839
+[2026-09-19 10:29:11,817] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 823
+[2026-09-19 10:29:11,844] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 773
+[2026-09-19 10:29:35,382] INFO django.server basehttp: "PATCH /api/auth/users/8/ HTTP/1.1" 200 189
+[2026-09-19 10:29:43,640] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 773
+[2026-09-19 10:29:43,640] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 823
+[2026-09-19 10:29:57,843] INFO apps.accounts views: Admin=admin deleted user=newuser
+[2026-09-19 10:29:57,845] INFO django.server basehttp: "DELETE /api/auth/users/8/ HTTP/1.1" 204 0
+[2026-09-19 10:30:06,090] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 633
+[2026-09-19 10:30:06,098] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 583
+[2026-09-19 10:30:19,069] INFO apps.accounts views: Admin=admin deleted user=worlflow
+[2026-09-19 10:30:19,071] INFO django.server basehttp: "DELETE /api/auth/users/7/ HTTP/1.1" 204 0
+[2026-09-19 10:30:27,323] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 405
+[2026-09-19 10:30:27,355] INFO django.server basehttp: "GET /api/auth/users/ HTTP/1.1" 200 455
+[2026-09-19 10:30:40,560] INFO django.server basehttp: "GET /api/auth/users/active/ HTTP/1.1" 200 405
+[2026-09-19 10:30:40,576] INFO django.server basehttp: "GET /api/projects/?page_size=100 HTTP/1.1" 200 1965
+[2026-09-19 10:30:40,638] INFO django.server basehttp: "GET /api/tasks/?page=1 HTTP/1.1" 200 3474
+[2026-09-19 10:30:47,303] INFO django.server basehttp: "GET /api/reports/tasks/?days=30 HTTP/1.1" 200 253
+[2026-09-19 10:30:47,336] INFO django.server basehttp: "GET /api/reports/project-progress/ HTTP/1.1" 200 547
+[2026-09-19 10:34:17,735] INFO django.server basehttp: "GET /api/projects/?page=1 HTTP/1.1" 200 1965
+[2026-09-19 10:34:27,247] INFO django.server basehttp: "GET /api/dashboard/summary/ HTTP/1.1" 200 1834
+[2026-09-19 10:50:40,165] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\accounts\views.py changed, reloading.
+[2026-09-19 10:50:44,960] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:14:41,223] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\projects\serializers.py changed, reloading.
+[2026-09-19 11:14:45,012] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:16:18,459] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\projects\views.py changed, reloading.
+[2026-09-19 11:16:20,862] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:23:56,297] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\analytics\services.py changed, reloading.
+[2026-09-19 11:23:59,548] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:28:34,714] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\analytics\services.py changed, reloading.
+[2026-09-19 11:28:38,791] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:29:40,721] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\analytics\services.py changed, reloading.
+[2026-09-19 11:29:43,431] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:37:32,275] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\accounts\views.py changed, reloading.
+[2026-09-19 11:37:35,175] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:46:17,470] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\analytics\services.py changed, reloading.
+[2026-09-19 11:46:19,989] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:46:54,800] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\analytics\services.py changed, reloading.
+[2026-09-19 11:46:56,990] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:47:17,425] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\analytics\services.py changed, reloading.
+[2026-09-19 11:47:19,666] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader
+[2026-09-19 11:52:21,130] INFO django.utils.autoreload autoreload: C:\Users\Legion RTX\Desktop\WorkFlow-Pro\backend\apps\projects\views.py changed, reloading.
+[2026-09-19 11:52:23,181] INFO django.utils.autoreload autoreload: Watching for file changes with StatReloader

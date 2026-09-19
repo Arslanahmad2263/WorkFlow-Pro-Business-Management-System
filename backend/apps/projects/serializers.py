@@ -40,7 +40,7 @@ class ProjectSerializer(serializers.ModelSerializer):
     """API representation of a project with aggregates for the dashboard/UI."""
 
     members = MembershipSerializer(source="memberships", many=True, read_only=True)
-    task_count = serializers.IntegerField(source="tasks.count", read_only=True)
+    task_count = serializers.IntegerField(read_only=True)
     done_task_count = serializers.IntegerField(read_only=True)
     progress = serializers.FloatField(read_only=True)
     created_by_name = serializers.CharField(source="created_by.username", read_only=True)

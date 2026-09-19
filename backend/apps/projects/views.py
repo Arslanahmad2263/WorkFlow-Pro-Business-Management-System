@@ -13,7 +13,8 @@ from django.db.models import (
 from django.db.models.functions import Coalesce
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
-from rest_framework import generics, viewsets
+from rest_framework import generics, status, viewsets
+from rest_framework.response import Response
 
 from apps.accounts.permissions import IsAdminOrManager
 from apps.activity.services import record_activity
@@ -91,6 +92,29 @@ class ProjectViewSet(viewsets.ModelViewSet):
                 project=project,
             )
         logger.info("User=%s updated project=%s", self.request.user.username, project.name)
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+        # Re-serialize from the annotated queryset so annotated read-only
+        # fields (progress, task_count, done_task_count, is_overdue) are
+        # present in the response instead of raising on an un-annotated
+        # instance.
+        instance = self.get_queryset().get(pk=serializer.instance.pk)
+        output = self.get_serializer(instance).data
+        headers = self.get_success_headers(output)
+        return Response(output, status=status.HTTP_201_CREATED, headers=headers)
+
+    def update(self, request, *args, **kwargs):
+        partial = kwargs.pop("partial", False)
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, data=request.data, partial=partial)
+        serializer.is_valid(raise_exception=True)
+        self.perform_update(serializer)
+        # Same as create: return fully annotated aggregates.
+        output_instance = self.get_queryset().get(pk=serializer.instance.pk)
+        return Response(self.get_serializer(output_instance).data)
 
     def perform_create(self, serializer):
         project = serializer.save()
