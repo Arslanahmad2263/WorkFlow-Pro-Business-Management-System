@@ -1,7 +1,7 @@
 # WorkFlow-Pro
 
-**Business Management & Task Tracking System** — a full-stack application for
-small companies to manage projects, tasks, team members and reporting.**
+**Business Management & Task Tracking System** — full-stack application for
+a companies to manage projects, tasks, team members and reporting.**
 
 ---
 
@@ -56,7 +56,7 @@ Seed demo users (first run):
 docker compose exec backend python manage.py seed_demo_data
 ```
 
-Demo accounts — password for all: `DemoPass123!`
+Demo accounts — password for all: `DemoPass`
 
 | Username | Role |
 | --- | --- |
