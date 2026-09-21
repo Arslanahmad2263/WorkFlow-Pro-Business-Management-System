@@ -304,7 +304,7 @@ Cached. Returns an array of per-project rows:
 
 ```
 POST /api/auth/login/
-{"username": "alice", "password": "DemoPass123!"}
+{"username": "admin", "password": "DemoPass123!"}
 
 # 200
 # { "access": "eyJ...", "refresh": "eyJ...", "user": {...} }
